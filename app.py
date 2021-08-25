@@ -11,3 +11,7 @@ def home():
 @app.route('/your-url', methods=['GET', 'POST'])
 def your_url():
     return "<h2>1.1</h2>"
+
+
+if __name__ == '__main__':
+    app.run()
